@@ -29,7 +29,8 @@ To build and use a Swept you will need
 * 2 batteries. From [Typeractive](https://typeractive.xyz/products/lithium-battery-110mah).
 * 2 Mill-Max sockets with pins. Make sure you get the high-profile ones, low-profile still fits a battery underneath but there's less space. [Typeractive](https://typeractive.xyz/products/machine-sockets-and-pins) carries the correct size.
 * 42 Choc v1 switches. You can get them from [MKUltra](https://mkultra.click/choc-switches).
-* 84 Mill-Max 3305 or 7305 sockets, you can get either model from [prevailkey](https://prevailkeyco.com/products/3305-mill-max-sockets?variant=42568596193534). These are optional but you can use them to make your board hot-swap. I recommend getting some extra ones because they're very easy to lose.
+* EITHER 84 Mill-Max 3305 or 7305 sockets, you can get either model from [prevailkey](https://prevailkeyco.com/products/3305-mill-max-sockets?variant=42568596193534). These are optional but you can use them to make your board hot-swap. I recommend getting some extra ones because they're very easy to lose.
+* OR (v1.0+ only) 42 Kailh Choc Hotswap Sockets. You can get them from [MKUltra](https://mkultra.click/kailh-hotswap-sockets) or [Boardsource](https://boardsource.xyz/store/5eca381464caf04f83aa6482).
 * 42 smd diodes. From [MKUltra](https://mkultra.click/diode-1n4148-sod-123f/) for flush SOD-123F form factor, or from [Boardsource](https://boardsource.xyz/store/5ec9fc5d64caf04f83aa646c) for glass smd form factor; the former ones might be easier to solder for some people. I recommend getting some extra ones because they're very easy to lose.
 * 42 keycaps. You can get them from [MKUltra](https://mkultra.click/mbk-choc-keycaps) or [Boardsource](https://boardsource.xyz/store/5f6ef2d68e3bf05ab838f918). I recommend getting a least a couple of homing keys, available from both providers.
 * 2x reset switches ([B3U-1000P(M)](https://github.com/davidphilipbarr/Sweep/issues/20)). [This kit](https://www.amazon.com/dp/B07LCBLB8N?psc=1&ref=ppx_yo2ov_dt_b_product_details) includes switches that fit.
@@ -83,7 +84,7 @@ Firmware for zmk and nice!nano is called ["Corne"](https://zmk.dev/docs/hardware
 
 ## Changelog
 
-### v1.0.0 (Still untested)
+### v1.0.0
 
 - Boards now have optional support for Kailh choc hot-swap sockets.
 - The form factor is not exactly the same to accomodate the sockets.
